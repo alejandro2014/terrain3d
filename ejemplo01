@@ -1,0 +1,63 @@
+Ejemplo de creación de una dcel y guardado en un fichero
+	/*dcel = new Dcel(8,12,36);
+
+	dcel->setVertice(0, -2.0, -2.0, 2.0, 5);
+	dcel->setVertice(1, 2.0, -2.0, 2.0, 11);
+	dcel->setVertice(2, 2.0, -2.0, -2.0, 13);
+	dcel->setVertice(3, -2.0, -2.0, -2.0, 15);
+	dcel->setVertice(4, -2.0, 2.0, 2.0, 19);
+	dcel->setVertice(5, 2.0, 2.0, 2.0, 3);
+	dcel->setVertice(6, 2.0, 2.0, -2.0, 31);
+	dcel->setVertice(7, -2.0, 2.0, -2.0, 10);
+
+	dcel->setCara(0, 2);
+	dcel->setCara(1, 20);
+	dcel->setCara(2, 6);
+	dcel->setCara(3, 24);
+	dcel->setCara(4, 4);
+	dcel->setCara(5, 22);
+	dcel->setCara(6, 30);
+	dcel->setCara(7, 12);
+	dcel->setCara(8, 8);
+	dcel->setCara(9, 26);
+	dcel->setCara(10,10);
+	dcel->setCara(11,28);
+
+	dcel->setArista(0,2,1,18,6,0);
+	dcel->setArista(1,0,2,19,7,0);
+	dcel->setArista(2,1,0,20,4,0);
+	dcel->setArista(3,34,20,21,5,1);
+	dcel->setArista(4,23,16,22,0,4);
+	dcel->setArista(5,15,24,23,0,3);
+	dcel->setArista(6,32,19,24,3,2);
+	dcel->setArista(7,22,11,25,0,5);
+	dcel->setArista(8,33,25,26,3,8);
+	dcel->setArista(9,26,17,27,3,9);
+	dcel->setArista(10,14,27,28,7,10);
+	dcel->setArista(11,7,22,29,1,5);
+	dcel->setArista(12,13,35,30,6,7);
+	dcel->setArista(13,35,12,31,2,7);
+	dcel->setArista(14,27,10,32,3,10);
+	dcel->setArista(15,24,5,33,3,3);
+	dcel->setArista(16,4,23,34,5,4);
+	dcel->setArista(17,9,26,35,2,9);
+	dcel->setArista(18,28,31,0,7,11);
+	dcel->setArista(19,6,32,1,4,2);
+	dcel->setArista(20,3,34,2,6,1);
+	dcel->setArista(21,30,29,3,6,6);
+	dcel->setArista(22,11,7,4,5,5);
+	dcel->setArista(23,16,4,5,4,4);
+	dcel->setArista(24,5,15,6,4,3);
+	dcel->setArista(25,8,33,7,1,8);
+	dcel->setArista(26,17,9,8,1,9);
+	dcel->setArista(27,10,14,9,2,10);
+	dcel->setArista(28,31,18,10,2,11);
+	dcel->setArista(29,21,30,11,5,6);
+	dcel->setArista(30,29,21,12,1,6);
+	dcel->setArista(31,18,28,13,6,11);
+	dcel->setArista(32,19,6,14,7,2);
+	dcel->setArista(33,25,8,15,0,8);
+	dcel->setArista(34,20,3,16,4,1);
+	dcel->setArista(35,12,13,17,1,7);
+
+	dcel->guardar("cubo.dce");*/
